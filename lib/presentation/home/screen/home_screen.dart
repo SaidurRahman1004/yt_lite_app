@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_lite/core/constants/app_colors.dart';
-import 'package:youtube_lite/core/constants/app_strings.dart';
-import 'package:youtube_lite/core/constants/youtube_urls.dart';
-import 'package:youtube_lite/presentation/home/widget/youtube_nav_tile.dart';
-import 'package:youtube_lite/presentation/youtube/screen/youtube_screen.dart';
+
+import '../../../core/constants/app_colors.dart';
+import '../../../core/constants/app_strings.dart';
+import '../../../core/constants/youtube_urls.dart';
+import '../../youtube/screen/youtube_screen.dart';
+import '../widget/youtube_nav_tile.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
